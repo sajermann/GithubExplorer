@@ -1,0 +1,39 @@
+{
+  "name": "githubexplorer",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite --open",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+		"jest": "jest",
+		"test": "jest --silent --env=jsdom --coverage"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+		"@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.0",
+		"ts-jest": "^27.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "typescript": "^4.6.3",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "prettier": "^2.6.1",
+		"ts-node": "^10.7.0",
+    "vite": "^2.9.0"
+  }
+}
