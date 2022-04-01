@@ -1,5 +1,12 @@
+import { BrowserRouter } from 'react-router-dom';
+import RoutesAll from './routes';
+
 function App() {
-	return <h2>Batata</h2>;
+	return (
+		<BrowserRouter>
+			<RoutesAll />
+		</BrowserRouter>
+	);
 }
 
 export default App;
