@@ -1,3 +1,5 @@
+import Title from './styles';
+
 export default function Dashboard() {
-	return <h1>Dashboard</h1>;
+	return <Title>Explore Repositórios no Github</Title>;
 }
